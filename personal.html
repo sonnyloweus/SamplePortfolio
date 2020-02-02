@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sonny Lowe</title>
+        <script src="personal.js"></script>
+        <link href="personal.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class = "container">
+            <div class = "leftside">
+                <img id="BellarminePic" src="https://upload.wikimedia.org/wikipedia/en/f/fc/BCP-Crest.png">
+                <div class = "menuBar">
+                    <ul id="menu">
+                        <li><a href="">About Me</a></li>
+                        <li><a>Bellarmine</a></li>
+                        <li><a>Life</a></li>
+                    </ul>
+                </div>
+                <h2 id="myName">Sonny Lowe</h2>
+                <div class = "attributes">
+                    <h4>Photographer</h4>
+                    <h4>Boy Scout</h4>
+                    <h4>Athlete</h4>
+                </div>
+                <br>
+                <div class = "arrows">
+                    <img id="arrowLeft" src="arrow.png">
+                    <img id="arrowRight" src="arrow.png">
+                </div>
+                <div>
+                    <a id ="fun" href="#buttons">Fun Projects</a>
+                </div>
+            </div>
+            <div id="funStuff">
+                <button id = "website" type="button" onclick="location.href='http://www.fishybooks.com'">Website</button>
+                <div class = "pictures">
+                    <img src="IMG_0648.jpg">
+                    <img src="IMG_3232.jpg">
+                    <img src="IMG_3236.jpg">
+                </div>
+                <div id="buttons">
+                    <p>
+                        <span id="hours">00</span>
+                        <span>:</span>
+                        <span id="minutes">00</span>
+                        <span>:</span>
+                        <span id="seconds">00</span>
+                        <span>:</span>
+                        <span id="tens">00</span>
+                    </p>
+                    <button id="start">START</button>
+                    <button id="stop" type="button">STOP</button>
+                    <button id="reset" type="button" >RESET</button>      
+                </div>
+                <h1 style="text-align: center;">Drag-and-Drop Assignment</h1>
+                <h3 style="text-align: center;">Drag each card into the box in ascending order</h3>
+                
+                <div id = "emptyBox" ondragover="permitDrop(event)" ondrop="drop(event)"></div>
+                <div id="cards">
+                    <img src="d9.gif" draggable="true" id="d9" width="16.66%" height="200px" ondragstart="drag(event)" >
+                    <img src="d8.gif" draggable="true" id="d8" width="16.66%" height="200px" ondragstart="drag(event)" >
+                    <img src="dj.gif" draggable="true" id="dj" width="16.66%" height="200px" ondragstart="drag(event)">
+                    <br>
+                    <img src="dk.gif" draggable="true" id="dk" width="16.66%" height="200px" ondragstart="drag(event)" >
+                    <img src="d10.gif" draggable="true" id="d10" width="16.66%" height="200px" ondragstart="drag(event)">
+                    <img src="dq.gif" draggable="true" id="dq" width="16.66%" height="200px" ondragstart="drag(event)" >
+                </div>
+                
+                <ol type="i">
+                    <li>Dowloaded all softwear being used</li>
+                    <li>Made name Tags</li>
+                    <li>Used MDN to create a basic page with IMG and H1</li>
+                    <li>Peer Grading, learned script and style tags</li>
+                    <li>learned binary and how the internet works</li>
+                    <li>human bit, class notebooks</li>
+                </ol>
+            </div>
+        </div>        
+    </body>
+</html>
+
+<!--document.getElementById("demo").innerHTML = "Hello JavaScript";
+ -->

@@ -1,0 +1,173 @@
+body {
+    margin: 0; 
+    min-width: 700px;
+}
+.container{
+    background-color: #33FDFF;
+}
+.leftside{
+    margin-right: 70%; 
+    width: 30%; 
+    height: 100%; 
+    position: fixed; 
+    background-color: white;
+    min-width: 230px;
+}
+#BellarminePic {
+    padding-top: 3%; 
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+    opacity: 0.6; 
+    width: 50%;
+}
+#myName{
+    color:black; 
+    font-family:Times New Roman; 
+    font-weight: 800; 
+    text-align: center; 
+    margin-top: 20%;
+}
+.menuBar{
+    padding-top: 5%;
+}
+#fun:hover {
+    background-color:skyblue;
+    color: white;
+    cursor:grabbing;
+}
+#fun{
+    position: absolute; 
+    padding-top:10px; 
+    padding-bottom: 10px; 
+    bottom: 0; 
+    width:100%; 
+    font-family:Times New Roman; 
+    font-weight: 800; 
+    text-align: center;
+}
+#funStuff{
+    margin-left: 30%; 
+    width: 70%; 
+    background-color:#33FDFF; 
+    padding-bottom:10%;
+}
+#website{
+    float: right; 
+    padding: 1%; 
+    background-color: skyblue; 
+    color: black; 
+    border-radius: 30%;
+}
+#menu li a:hover:not(.active) {
+    background-color:white;
+    color: black;
+    cursor:grabbing;
+}
+.arrows img:hover {
+    background-color: skyblue;
+    cursor:grabbing;
+}
+#arrowLeft{
+    transform: rotate(180deg); 
+    width:16% ; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#arrowRight{
+    width:16%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.attributes h4:hover {
+    text-decoration-line: underline;
+    cursor:grabbing;
+}
+.attributes h4{
+    color:black; 
+    font-family:Times New Roman; 
+    font-weight:600; 
+    text-align: center; 
+    padding-top:3%;
+}
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:skyblue;
+}
+#menu li{
+    width:33.333%;
+    float: left;
+}
+#menu li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.pictures img{
+    width: 94%;
+    margin: 3%;
+}
+#buttons{
+    padding-top: 20px;
+    padding-bottom: 25px;
+    display: block;
+    color: white;
+    text-align: center;
+    background-color: black;
+    margin: 0;
+}
+
+#buttons button{
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    color: white;
+    border: solid 1px white;
+    text-decoration: none;
+    background-color: transparent;
+    cursor:pointer;
+    font-size: 1.2em;
+    padding: 28px 28px;
+    width:120px;
+    height:120px;
+    margin: 20px;
+    outline: none;
+    transition: (all ) .3s;
+}
+
+#buttons span{
+    font-size: 100px;
+    font-weight: 100;
+}
+
+#buttons button:hover{
+    background-color: rgba(219, 146, 146, 0.1);
+}
+ol{
+    font-family: 'Times New Roman';
+    font-size: 150%;
+    width:100%;
+    color: black;
+    margin-left: 5%;
+    margin-top: 7%;
+    font-weight: 700;
+    text-align: center;
+}
+#emptyBox{
+    border: solid black; 
+    border-width: 5px; 
+    width:90%; 
+    height: 200px; 
+    margin-left: 5%;
+}
+#cards{
+    padding-left:33%; 
+    padding-top: 5%;
+}
